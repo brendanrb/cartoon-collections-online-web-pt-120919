@@ -3,7 +3,7 @@ def roll_call_dwarves(dwarves)
   new_array = []
   while i < dwarves.size
   dwarves.each do |dwarf|
-    new_array << #{dwarf.index}. #{dwarf}
+    new_array << "#{dwarf.index}. #{dwarf}""
   i =i + 1
 end
 new_array.to_s
