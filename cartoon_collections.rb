@@ -1,7 +1,7 @@
 def roll_call_dwarves(dwarves)
   i = 0 
   while i < dwarves.size
-  dwarves.each_with_index do |dwarf|
+  dwarves.each do |dwarf|
     puts #{dwarf.id}. #{dwarf}
   i =i + 1
 end
