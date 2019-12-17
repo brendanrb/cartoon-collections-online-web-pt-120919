@@ -10,7 +10,7 @@ def summon_captain_planet(array)
   finished_array = []
   i = 0
   while i < array.size 
-  finished_array << array
+  finished_array << array[i].capitalize
   
   
 end
