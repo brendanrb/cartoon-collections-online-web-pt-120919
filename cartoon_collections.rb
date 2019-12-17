@@ -1,4 +1,5 @@
 def roll_call_dwarves(dwarves)
+ puts dwarves.to_a 
   
 end
 
