@@ -20,10 +20,10 @@ end
 def long_planeteer_calls(array)
   i = 0 
   if array.any? {[i] i.size > 4}
-    return false 
+    return true 
     
   else 
-    return true 
+    return false
     i += 1 
   
 end
