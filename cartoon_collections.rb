@@ -1,6 +1,10 @@
 def roll_call_dwarves(dwarves)
- puts dwarves.
-  
+  i = 0 
+  while i < dwarves.size
+  dwarves.each_with_index do |dwarf|
+    puts #{dwarf.id}. #{dwarf}
+  i =i + 1
+end
 end
 
 def summon_captain_planet# code an argument here
