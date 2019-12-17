@@ -6,7 +6,7 @@ def roll_call_dwarves(dwarves)
     new_array << "#{dwarf}"
   i =i + 1
 end
-new_array.to_s
+new_array
 end
 end
 
