@@ -2,8 +2,7 @@ def roll_call_dwarves(dwarves)
   i = 0 
   new_array = []
   while i < dwarves.size
-  dwarves.each do |dwarf|
-    new_array << "#{dwarf}"
+  
   i =i + 1
 
 end
